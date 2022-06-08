@@ -59,6 +59,9 @@
 .btn-primary, a{
     background-color: $purple;
 }
-.card-text{
+.card-text, .btn-primary{
     color: white;
 }
+
+//new font
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
