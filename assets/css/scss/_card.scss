@@ -1,8 +1,12 @@
 //
 // Base styles
 //
+.card-base-color{
+  background-color: rgba(34,37,41,255) !important;
+}
 
 .card {
+  @extend .card-base-color;
   position: relative;
   display: flex;
   flex-direction: column;
